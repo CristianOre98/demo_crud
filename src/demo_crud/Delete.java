@@ -19,7 +19,8 @@ public class Delete {
         String condicion = "id_estudiante = "+idEstudianteEliminar;
         utilerias.desplegarRegistros(tabla, campos, condicion);
         
-        
+         System.out.println("Presionar <<Y>> para confirmar: ");
+        String confirmarBorrar = leer.next();
     
     
 }
