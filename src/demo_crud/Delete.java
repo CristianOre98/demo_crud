@@ -18,6 +18,8 @@ public class Delete {
         String campos = "*";
         String condicion = "id_estudiante = "+idEstudianteEliminar;
         utilerias.desplegarRegistros(tabla, campos, condicion);
+        
+        
     
     
 }
