@@ -21,6 +21,20 @@ public class Delete {
         
          System.out.println("Presionar <<Y>> para confirmar: ");
         String confirmarBorrar = leer.next();
-    
+        
+           if ("Y".equals(confirmarBorrar)) {
+            /*se le deja vacio para el metodo actualizarEliminarRegistro
+            envie solamente los parametros de tabla y condicion y poder eliminar
+            */
+            String valoresCamposNuevos="";
+            utilerias.actualizarEliminarRegistro(tabla, condicion, valoresCamposNuevos);
+            System.out.println("Registro borrado satisfactoriamente!");
+            
+        }
+        MenuPrincipal.desplegarMenu();
+    }
     
 }
+    
+    
+
