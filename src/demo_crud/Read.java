@@ -5,10 +5,8 @@
  */
 package demo_crud;
 
-/**
- *
- * @author Nolasco
- */
+import java.sql.SQLException;
+
 public class Read {
     
 }
