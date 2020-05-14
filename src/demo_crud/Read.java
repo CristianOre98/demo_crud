@@ -8,5 +8,9 @@ package demo_crud;
 import java.sql.SQLException;
 
 public class Read {
-    
-}
+    public Read() throws SQLException{
+        System.out.println("<< CONSULTAR REGISTROS >>");
+        mostrarResultado(); //Llamar metodo dentro de la clase
+        
+        }
+    }
